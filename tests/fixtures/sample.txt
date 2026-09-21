@@ -1,0 +1,3 @@
+Ollama runs large language models locally on your own machine.
+LangChain provides document loaders, text splitters, and vector store integrations.
+Chroma and FAISS are both vector databases used for semantic similarity search.

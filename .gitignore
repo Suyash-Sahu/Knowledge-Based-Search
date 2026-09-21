@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Vector Stores & Local Persistence Data
+storage/chroma/
+storage/faiss/
+storage/*
+!storage/.gitkeep
+
+# Linting & Testing Cache
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit Cache & Settings
+.streamlit/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
